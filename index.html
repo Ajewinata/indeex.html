@@ -1,0 +1,324 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Dian Travel
+  </title>
+  <link rel="icon" href="https://i.pinimg.com/originals/73/34/93/733493309b80e605876aa3aea71e94fb.jpg"
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url(data:image/png;base64,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);
+        }
+        header {
+            background-color: #000000;
+            color: #f7f6f6;
+            padding: 1rem 0;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .service, .hotel {
+            background-color: #fff;
+            margin-bottom: 2rem;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .service img, .hotel img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .service h2, .hotel h2 {
+            margin-top: 0;
+        }
+        .contact-icons {
+            display: flex;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+        .contact-icons a {
+            color: #333;
+            margin: 0 0.5rem;
+            font-size: 1.5rem;
+        }
+        .contact-icons img {
+            width: 40px;
+            height: 40px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .animated-title {
+            animation:forwards fadeIn 3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .animated-title img {
+            margin-right: 10px;
+        }
+        .booking-link {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 500px;
+            border-radius: 8px;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+   <h1 class="animated-title">
+    <img alt="Dian Travel logo" height="50" src="https://i.pinimg.com/originals/73/34/93/733493309b80e605876aa3aea71e94fb.jpg" width="50"/>
+    Dian Travel
+   </h1>
+   <h2>
+    "TRAVEL KUTA MANDALIKA"
+    </h2>
+  </header>
+  <nav>
+   <a href="#services">
+    Services
+   </a>
+   <a href="#hotels">
+    Hotels
+   </a>
+   <a href="#contact">
+    Contact
+   </a>
+  </nav>
+  <div class="container">
+   <section id="services">
+    <div class="service">
+     <img alt="Image of a comfortable car for pick-up and drop-off service" height="400" src="car3.jpg" width="600"/>
+     <h2>
+      Pick-up and Drop-off Service
+     </h2>
+     <p>
+      We provide reliable and comfortable pick-up and drop-off services to ensure you reach your destination safely and on time.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    </div>
+    <div class="service">
+     <img alt="Image of a luxurious car for premium pick-up and drop-off service" height="400" src="car2.jpg" width="600"/>
+     <h2>
+      Premium Pick-up and Drop-off Service
+     </h2>
+     <p>
+      Experience luxury with our premium pick-up and drop-off services, featuring high-end vehicles and professional drivers.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    <div class="service">
+     <img alt="Image of a luxurious car for premium pick-up and drop-off service" height="400" src="https://jogjaasik.com/wp-content/uploads/2023/09/Rekomendasi-Jasa-Antar-Jemput-Bandara-YIA-Yogyakarta.jpg" width="600"/>
+     <h2>
+      Premium Pick-up and Drop-off Service
+     </h2>
+     <p>
+        Nikmati kenyamanan perjalanan Anda dengan layanan antar-jemput bandara yang praktis dan terpercaya. Kami menawarkan layanan transportasi door-to-door dari dan ke bandara, memastikan Anda tiba tepat waktu dan tanpa stres. Dengan armada kendaraan yang nyaman dan sopir berpengalaman, perjalanan Anda akan terasa aman dan menyenangkan. Tidak perlu khawatir tentang parkir atau transportasi umum, karena kami siap mengantarkan Anda ke bandara atau hotel dengan mudah dan efisien. Pilih layanan kami untuk pengalaman perjalanan yang nyaman, cepat, dan tanpa ribet.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    </div>
+   </section>
+   <section id="hotels">
+    <div class="hotel">
+     <img alt="Image of a modern hotel room with a comfortable bed and a city view" height="400" src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/251656487.jpg?k=1caa491ed24c544303337bca6b9f53fa4798e64c8aab9f6b544e43e86ebe643e&o=&hp=1" width="600"/>
+     <h2>
+      NOVOTEL LOMBOK
+     </h2>
+     <p>
+      Treat the whole family to a fun-filled holiday in traditional Sasak style at Novotel Lombok Resort & Villas. 
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    </div>
+    <div class="hotel">
+     <img alt="Image of a cozy hotel room with a garden view" height="400" src="https://s-light.tiket.photos/t/01E25EBZS3W0FY9GTG6C42E1SE/t_htl-dskt/tix-hotel/images-web/2021/06/12/e2bb0d43-42f6-448f-b3d9-d6cb5e8b1d77-1623479714294-64d1cbdafb289f8d7fda665cc0aac948.jpg" width="600"/>
+     <h2>
+      RAJA HOTEL
+     </h2>
+     <p>
+        Hotel Raja Kuta Mandalika is located at a premium beach location in Kuta Mandalika. As a 5 star hotel, we are offering our guest great services and many facilities inside the hotel. Every amenity, service and experience is overflown with style and luxury. It gives you an opportunity to fully relax and enjoy every moment at your own pace. ​
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    </div>
+    <div class="hotel">
+     <img alt="Image of a luxurious hotel suite with a sea view" height="400" src="https://www.ahstatic.com/photos/a1k2_rokgabc_00_p_1024x768.jpg" width="600"/>
+     <h2>
+      PULLMAN
+     </h2>
+     <p>
+        From the moment you feel the sea breeze and you’re greeted by the Pullman Welcomers at our open reception area—a meeting place inspired by the traditional berugak shelters of the indigenous Sasak people—you know you’ve arrived at your personal tropical retreat, Accor’s first premium-scale resort in Lombok.
+    </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+     </a>
+    </div>
+    <div class="hotel">
+     <img alt="Image of a luxurious hotel suite with a sea view" height="400" src="WhatsApp Image 2025-01-08 at 17.28.06_46096e86.jpg" width="600"/>
+     <h2>
+      SELONG BLANAK
+     </h2>
+     <p>
+        Pantai Selong Blanak memukau dengan hamparan pasir putihnya yang luas dan air laut yang jernih berwarna biru kehijauan. Dikelilingi bukit-bukit hijau, pantai ini menyajikan pemandangan yang menenangkan dan jauh dari keramaian. Ombak yang bersahabat menjadikannya tempat yang ideal untuk berselancar atau sekadar menikmati ketenangan alam, menjadikan Selong Blanak sebagai tempat yang sempurna untuk melepas penat dan meresapi keindahan Lombok yang masih asri.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+     </a>
+    </div>
+    <div class="hotel">
+     <img alt="Image of a luxurious hotel suite with a sea view" height="400" src="https://asset.kompas.com/crops/6gam0ibFY4tPA6pVZCgPxaAT07U=/140x0:767x418/750x500/data/photo/2021/08/20/611f66304e570.jpg" width="600"/>
+     <h2>
+      MAWUN
+     </h2>
+     <p>
+        Pantai Mawun adalah surga tersembunyi yang memikat hati, dengan pasir putihnya yang lembut dan air laut yang jernih berwarna turquoise. Dikelilingi oleh perbukitan hijau, pantai ini menawarkan suasana tenang dan alami, jauh dari keramaian. Ombak yang tenang dan angin sepoi-sepoi menciptakan kedamaian, menjadikan Pantai Mawun tempat sempurna untuk bersantai, berenang, atau sekadar menikmati keindahan alam yang menenangkan jiwa.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+     </a>
+    </div>
+    <div class="hotel">
+     <img alt="Image of a luxurious hotel suite with a sea view" height="400" src="https://lombok-airport.co.id/frontend/uploads/defaults/h78N9E20170309134216.jpg" width="600"/>
+     <h2>
+      MERESE
+     <p>
+        Di puncak Bukit Merese, dunia terasa begitu tenang,
+        Langit biru melukis cakrawala yang luas,
+        Sementara angin sepoi-sepoi membelai wajah,
+        Seakan alam mengajak kita untuk bersatu dalam keheningan.
+     </p>
+     <a class="booking-link" onclick="openModal()">
+      Booking
+     </a>
+    </div>
+   </section>
+   <section id="contact">
+    <h2>
+     Contact Us
+    </h2>
+    <div class="contact-icons">
+     <a href="https://wa.me/yourwhatsappnumber" target="_blank">
+      <img alt="WhatsApp logo" height="40" src="https://storage.googleapis.com/a1aa/image/T7h3hXuIdx6rH5fa0hg1b6ngeOUfS3lP9sSy8smhVti5f7LQB.jpg" width="40"/>
+     </a>
+     <a href="https://www.facebook.com/yourfacebookpage" target="_blank">
+      <img alt="Facebook logo" height="40" src="https://storage.googleapis.com/a1aa/image/fBdgAQuAza2RTaQjDcZ0Pzka4rxPFiq2rm9RPFPCfAz2f9FoA.jpg" width="40"/>
+     </a>
+     <a href="mailto:youremail@gmail.com" target="_blank">
+      <img alt="Gmail logo" height="40" src="https://storage.googleapis.com/a1aa/image/Ilb6PxBS92qxLl4MaiFuet4ti9azso64KRpc3Q3gAWQ8feFoA.jpg" width="40"/>
+     </a>
+     <a href="https://www.tiktok.com/@yourtiktokusername" target="_blank">
+      <img alt="TikTok logo" height="40" src="https://storage.googleapis.com/a1aa/image/dLOrLpLBHvJ3GhHv7tKhcJqAVGd8CxNKiohoXRH4UyR7vvAF.jpg" width="40"/>
+     </a>
+    </div>
+   </section>
+  </div>
+  <div class="modal" id="contactModal">
+   <div class="modal-content">
+    <span class="close" onclick="closeModal()">
+     &times;
+    </span>
+    <h2>
+     Contact Us
+    </h2>
+    <div class="contact-icons">
+     <a href="https://wa.me/qr/EMWHOU5JQWQFI1" target="_blank">
+      <img alt="WhatsApp logo" height="40" src="https://storage.googleapis.com/a1aa/image/T7h3hXuIdx6rH5fa0hg1b6ngeOUfS3lP9sSy8smhVti5f7LQB.jpg" width="40"/>
+     </a>
+     <a href="https://www.instagram.com/firman.ferdiansyah.712161?igsh=MXhyYnk1YjEya2UwaQ==" target="_blank">
+      <img alt="Facebook logo" height="40" src="https://storage.googleapis.com/a1aa/image/fBdgAQuAza2RTaQjDcZ0Pzka4rxPFiq2rm9RPFPCfAz2f9FoA.jpg" width="40"/>
+     </a>
+     <a href=" lalufirman979@gmail.com" target="_blank">
+      <img alt="Gmail logo" height="40" src="https://storage.googleapis.com/a1aa/image/Ilb6PxBS92qxLl4MaiFuet4ti9azso64KRpc3Q3gAWQ8feFoA.jpg" width="40"/>
+     </a>
+     <a href="https://www.tiktok.com/@yourtiktokusername" target="_blank">
+      <img alt="TikTok logo" height="40" src="https://storage.googleapis.com/a1aa/image/dLOrLpLBHvJ3GhHv7tKhcJqAVGd8CxNKiohoXRH4UyR7vvAF.jpg" width="40"/>
+     </a>
+    </div>
+   </div>
+  </div>
+  <script>
+   function openModal() {
+            document.getElementById('contactModal').style.display = 'block';
+        }
+
+        function closeModal() {
+            document.getElementById('contactModal').style.display = 'none';
+        }
+
+        window.onclick = function(event) {
+            if (event.target == document.getElementById('contactModal')) {
+                document.getElementById('contactModal').style.display = 'none';
+            }
+        }
+  </script>
+ </body>
+</html>
